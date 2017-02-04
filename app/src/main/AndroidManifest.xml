@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ameircom.keymedia">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@drawable/logomedianew"
+        android:label="Key Media"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:windowSoftInputMode="adjustPan">
+        <activity android:name=".Activity.LoginActivity"></activity>
+        <activity android:name=".Activity.RegisterActivity" />
+        <activity android:name=".Activity.Main2Activity" />
+        <activity android:name=".Activity.AboutUS" />
+        <activity android:name=".Activity.StartyActivity"
+            android:theme="@style/SplashTheme"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.MainActivity" />
+        <activity android:name=".Activity.Communicate" />
+        <activity android:name=".Advertising" />
+        <activity android:name=".Activity.MobileApplicationActivity" />
+        <activity android:name=".ArchDesign" />
+        <activity android:name=".Activity.MediaActivity" />
+        <activity
+            android:name=".Activity.MessageRoomDetailsActivity"
+            android:theme="@style/AppTheme.Translucent" />
+        <activity android:name=".Activity.Pa360DetailsActivity"></activity>
+        <activity android:name=".Activity.StartyAnimActivity">
+
+        </activity>
+    </application>
+</manifest>
